@@ -86,3 +86,66 @@ button{
     width:400px;
     height: auto;
 }
+
+.section-2{
+    padding-bottom: 100px;
+}
+
+.title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    padding: 50px;
+}
+
+.box{
+    border: #3882f6;
+    border-style: outset;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    align-self: center;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.box-text{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    font-size: 18px;
+    color: #1F2937;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.section-3{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 80px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    width: 850px;
+}
+
+.author{
+    font-size: 24px;
+    font-weight: bold;
+}
